@@ -1,0 +1,43 @@
+\chapter{Group Theory}
+
+\section{Group}
+\begin{definition}[monoid]  \label{def: monoid}
+    We say (G, $\dots$) is a monoid, if
+    \begin{enumerate}
+        \item $\forall x,y,z \in G, x(yz)=(xy)z$
+        \item $\exists e \in G, ex=xe=e$
+    \end{enumerate}
+    where e is called an indentity element.
+\end{definition}
+
+Here, e is unique, since if e' is another identity element, then
+\[
+    e = ee{'} = e{'}
+.\] 
+
+
+\begin{definition}[group]  \label{def: group}
+    We say (G, $\dots$) is a group, if
+    \begin{enumerate}
+        \item $\forall x,y,z \in G, x(yz)=(xy)z$
+        \item $\exists e \in G, ex=xe=x$
+        \item $\forall x \in G, \exists x^{-1}x=xx^{-1}=e$
+    \end{enumerate}
+    where $x^{-1}$ is called the inverse of x.\\
+    We say G is a abelian, if moreover $\forall x,y \in G, xy=yx$.\\
+    We say G is finite, if it is finite as a set. If so, we denote $\left|G\right|$ by the order of G, meaning the number of element of G.
+\end{definition}
+
+Here, $x^{-1}$ is unique for all x, since if y,z are inverses of x, then
+\[
+y=ye=y(xz)=(yx)z=ez=z
+.\] 
+Also, $(x^{-1})^{-1}=x$, since by definition,
+\[
+x^{-1}x=xx^{-1}=e
+.\] 
+And, $(xy)^{-1} = y^{-1}x^{-1}$, since
+
+
+
+
